@@ -1,0 +1,50 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# -----------------------------
+# Environment variables / secrets
+# -----------------------------
+.env
+.env.*
+*.key
+*.pem
+
+# -----------------------------
+# OS / Editor junk
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------
+# Data (keep raw datasets out of git)
+# -----------------------------
+data/raw/
+data/processed/
+
+# If you DO want to keep processed outputs but not raw, use this instead:
+# data/raw/
+# !data/processed/
